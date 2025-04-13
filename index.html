@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houding Corrector</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> -->
+</head>
+<body>
+    <h1>Houding Corrector</h1>
+    <div class="controls">
+        <button id="exportBtn">Exporteer naar JSON</button>
+        <button id="trainBtn">Train Model</button>
+        <button id="accuracyBtn">Bereken Accuracy</button>
+    </div>
+    <video id="video" autoplay></video>
+    <canvas id="canvas"></canvas>
+    <p id="feedback">Start de houding detectie...</p>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+    <script src="https://unpkg.com/ml5@1.12.2/dist/ml5.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>`;
